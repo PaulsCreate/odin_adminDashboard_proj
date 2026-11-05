@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://googleapis.com" rel=stylesheet">
+
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <span class="material-icon"><img src='/assets/view-dashboard.svg' alt='Dashboard'></span>
+                <h2>Admin Dashboard</h2>
+            </div>
+            <nav class="nav-links">
+                <ul class="nav-group">
+                    <li><a href="#"><span class="material-icon"><img src='/assets/home.svg' alt='Home'></span>Home</a></li>
+                    <li><a href="#"><span class="material-icon"><img src='/assets/account.svg' alt='Users'></span> Profile</a></li>
+                    <li><a href="#"><span class="material-icon"><img src='/assets/message-text.svg' alt='Messages''></span> Messages</a></li>
+                    <li><a href="#"><span class="material-icon"><img src='/assets/history.svg' alt='History'></span> History </a></li>
+                    <li><a href="#"><span class="material-icon"><img src='/assets/home.svg' alt='Settings'></span> Tasks</a></li>
+                    <li><a href="#"><span class="material-icon"><img src='./assets/account-group-outline.svg' alt="communities"></span> Communities</a></li>
+                </ul>
+
+                <ul class="nav-group settings-group">
+                    <li><a href="#""><span class="material-icon"><img src='./assets/cog.svg' alt='Settingst'></span> Setings</a></li>
+                    <li><a href="#""><span class="material-icon"><img src='./assets/help.svg' alt='Settingst'></span> Help</a></li>
+                    <li><a href="#""><span class="material-icon"><img src='./assets/shield-check.svg' alt='Privacy'></span>Privacy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#""><span class="material-icon"><img src='./assets/cog.svg' alt='Settingst'></span> Log Out</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="main-container">
+            <!-- Top header section -->
+             <header class="main-header">
+                <!-- Top Row: Search and Profile summary  -->
+                 <div class="header-top-row">
+                    <div class="search-bar">
+                        <span class="material-icon search"><img src="./assets/magnify.svg" alt="search"></span>   
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="profile-summary">
+                        <span class="material-icon"><img src="./assets/bell-ring.svg" alt="Notifications"></span>
+                        <span class="material-icon"><img src="./assets/account.svg" alt="Profile"></span>
+                        <span class="username">Paul Yusuf</span>
+                    </div>
+
+                </div>
+                <!-- Botton row: welcome greet and quck action buttons -->
+                <div class="header-bottom-row">
+                    <div class="welcome-block">
+                        <img src="./assets/account.svg" alt="Profile" width="30">
+                        <div class="welcome-text">
+                            <span class="greeting">Hi there, </span>
+                            <h3>Paul Yusuf (@paulscreate)</h3>
+                        </div>
+                    </div>
+                    <div class="action-btns">
+                        <button class="btn btn-primary">New</button>
+                        <button class="btn btn-primary">Upload</button>
+                        <button class="btn btn-primary">Share</button>
+                    </div>
+                 </div>
+             </header>
+             <main class="content-grid">
+                <!--left side of the page -->
+                <section class="projects">
+                    <h2 class="section-title">Your Projects</h2>
+                    <div class="project-container">
+                        <!-- Proj box 1 -->
+                         <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Super Cool Projects</h3>
+                                <p>A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project.
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+                         <!-- Proj box 2 -->
+                         <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Another Great Project</h3>
+                                <p>A brief description of the project.
+                                                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+
+                          <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Super Cool Projects</h3>
+                                <p>A brief description of the project.
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+
+                         <!-- Proj box 4 -->
+                           <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Super Cool Projects</h3>
+                                <p>A brief description of the project.
+                                                                        A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+
+                         <!-- Proj box 5 -->
+                           <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Super Cool Projects</h3>
+                                <p>A brief description of the project.
+                                                                        A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+                         <!-- proj 6 -->
+                           <article class="proj-card">
+                            <div class="card-accent-line"></div>
+                            <div class="card-content">
+                                <h3>Super Cool Projects</h3>
+                                <p>A brief description of the project.
+                                                                        A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                    A brief description of the project
+                                </p>
+                                <footer class="card-footer">
+                                    <span class="material-icon"><img src="./assets/hexagram-outline.svg" alt="members"></span>
+                                    <span class="material-icon"><img src="./assets/eye-refresh.svg" alt="views"></span>
+                                    <span class="material-icon"><img src="./assets/share-variant-outline.svg" alt="Share"></span>
+                                </footer>
+                            </div>
+                         </article>
+
+                        </div>
+                    </section>
+                    <!-- Right side of container -->
+                     <aside class="widgets-section">
+                        <!-- Announcment  -->
+                         <div class="widget-panel">
+                            <h2 class="section-title">Announcement</h2>
+                            <div class="widget-card announcement-card">
+                                <article class="announcement-item">
+                                    <h4>Site Maintenance </h4>
+                                    <p>We will be performing scheduled maintenance on our .</p>
+                                </article>
+                                <article class="announcement-item">
+                                    <h4>Community Share Day </h4>
+                                    <p>We will be performing scheduled maintenance on our </p>
+                                </article>
+                                <article class="announcement-item">
+                                    <h4>Updated Privacy Policy </h4>
+                                    <p>We will be performing scheduled maintenance on .</p>
+                                </article>
+
+                            </div>
+                         </div>
+
+                         <!-- Trending Panel -->
+                          <div class="widget-panel">
+                            <h2 class="section-title">Trending</h2>
+                            <div class="widget-card trending-card">
+                                <div class="trending-user">
+                                    <img src="./assets/account.svg" alt="user 1" width="30">
+                                    <div class="user-handle">
+                                        <strong>@james</strong>
+                                        <span>No Traffic Maker</span>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <img src="./assets/account.svg" alt="user 1" width="30px">
+                                    <div class="user-handle">
+                                        <strong>@james</strong>
+                                        <span>No Traffic Maker</span>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <img src="./assets/account.svg" alt="user 1" width="30px">
+                                    <div class="user-handle">
+                                        <strong>@james</strong>
+                                        <span>No Traffic Maker</span>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <img src="./assets/account.svg" alt="user 1" width="30">
+                                    <div class="user-handle">
+                                        <strong>@james</strong>
+                                        <span>No Traffic Maker</span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                     </aside>
+                </main>
+        </div>
+
+</body>
+</html>
